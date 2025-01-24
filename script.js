@@ -97,4 +97,11 @@ document.addEventListener("keyup", (e) => {
     if (e.key === "ArrowDown") arrowDownPressed = false;
 });
 
-gameLoop();
+gameLoop(); 
+
+document.addEventListener("keyup", (e) => {
+    if (e.key === "w") wPressed = false;
+    if (e.key === "s") sPressed = false;
+    if (e.key === "ArrowUp") arrowUpPressed = false;
+    if (e.key === "ArrowDown") arrowDownPressed = false;
+});
